@@ -1,0 +1,103 @@
+body{
+    width: 100%;
+    margin: 0;
+    height: 3000px;
+    background-color:whitesmoke;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;
+}
+h1{
+    color: black;
+    font-size: 38px;
+    font-family: 'sans-serif';
+    text-align: center;
+    border-bottom: 2px solid rgb(199, 199, 199);
+    margin: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+#underLine{
+    width: 0px;
+    height: 3px;
+    background-color: pink;
+    /* background-color: rgb(130, 175, 209); */
+    position: absolute;
+    top: 182px;     
+    left: 330px;
+    transition: 0.5s ease-in-out;
+
+}
+nav a{
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'guilm';
+    font-weight: bold;
+    margin: 1.5em;
+    margin-top: 5px;
+    padding-bottom: 2px;
+}
+nav a:hover {
+    color: rgb(0 57 100);
+    transition-duration: 0.8s;
+}
+
+nav{
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(199, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+/* 아래는 table */
+
+table{
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 1.5em;
+    margin-left: 150px;
+    margin-right: 200px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+th{
+    color: rgb(74 74 74);
+    border: 1px solid rgb(221 221 221);
+    padding: 10px;
+
+}
+td{
+    color: rgb(74 74 74);
+    border: 1px solid rgb(221 221 221);
+    padding: 10px;
+    text-align: center;
+ 
+}
+
+/* let underLine = document.getElementById("underLine");
+let Menu = document.querySelectorAll("nav a");
+
+Menu.forEach((menu)=>menu.addEventListener("click", (e) => Indicator(e)));
+
+function Indicator(e) {
+    underLine.style.left = e.currentTarget.offsetLeft + "px"
+    underLine.style.width = e.currentTarget.offsetWidth + "px"
+    underLine.style.top = e.currentTarget.offsetTop + e.currentTarget.offsetHeight+ 2+ "px"
+
+} 
+main.js에 넣기
+(네비게이션 언더바)
+*/
