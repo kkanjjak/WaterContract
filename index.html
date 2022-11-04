@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h3>ver . 1. 1</h3>
-        <h1>상하수도사업소 수의계약 순번제 관리 시스템</h1>
-    </header>
-        <div id="underLine"></div>
-        <nav>
-            <a href="#">상하수도설비</a>
-            <a href="#">기계설비</a>
-            <a href="#">금속창호</a>
-            <a href="#">전기공사</a>
-            <a href="#">철근콘크리트</a>
-            <a href="#">지반포장</a>
-        </nav>
+    <div id="header">
+        <header>
+            <h3>ver . 1. 1</h3>
+            <h1>상하수도사업소 수의계약 순번제 관리 시스템</h1>
+        </header>
+            <div id="underLine"></div>
+            <nav>
+                <a href="#">상하수도설비</a>
+                <a href="#">기계설비</a>
+                <a href="#">금속창호</a>
+                <a href="#">전기공사</a>
+                <a href="#">철근콘크리트</a>
+                <a href="#">지반포장</a>
+            </nav>
+    </div>
     
+    <input id="AddNew" type="button" value="신규 작성">
+
     <table>
         <thead>
             <tr>
@@ -49,7 +53,7 @@
             </tr>
         </thead>
 
-        <tbody>
+        <tbody id="tbody">
             <tr>
                 <td>
                     <span class="number">0001</span>
@@ -99,12 +103,112 @@
                     <span class="department">수도과</span>
                 </td>
             </tr>
+
+            <tr>
+                <td>
+                    <span class="number">0003</span>
+                </td>
+                <td>
+                    <span class="company">세명건설</span>
+                </td>
+
+                <td>
+                    <span class="title">범일로 574 외 2개소 수탁급수공사</span>
+                </td>
+                <td>
+                    <span class="price">11,050,000</span>
+                </td>
+                <td>
+                    <span class="date">2022.10.31.</span>
+                </td>
+                <td>
+                    <span class="name">이강인</span>
+                </td>
+                <td>
+                    <span class="department">수도과</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span class="number">0004</span>
+                </td>
+                <td>
+                    <span class="company">보광건설</span>
+                </td>
+
+                <td>
+                    <span class="title">대전동 105-2번지 외 5개소 수탁급수공사</span>
+                </td>
+                <td>
+                    <span class="price">16,550,000</span>
+                </td>
+                <td>
+                    <span class="date">2022.10.31.</span>
+                </td>
+                <td>
+                    <span class="name">이강인</span>
+                </td>
+                <td>
+                    <span class="department">수도과</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span class="number">0005</span>
+                </td>
+                <td>
+                    <span class="company">우리건설</span>
+                </td>
+
+                <td>
+                    <span class="title">강릉 공공하수처리시설 슬러지수집기 보수공사</span>
+                </td>
+                <td>
+                    <span class="price">16,090,000</span>
+                </td>
+                <td>
+                    <span class="date">2022.11.01.</span>
+                </td>
+                <td>
+                    <span class="name">이은실</span>
+                </td>
+                <td>
+                    <span class="department">하수과</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="numberTD">
+                    <input type="text" class="number">
+                </td>
+                <td class="companyTD">
+                    <input type="text" class="company">
+                </td>
+
+                <td class="titleTD">
+                    <input type="text" class="title">
+                </td>
+                <td class="priceTD">
+                    <input type="text" class="price">
+                </td>
+                <td class="dateTD">
+                    <input type="text" class="date">
+                </td>
+                <td class="nameTD">
+                    <input type="text" class="name">
+                </td>
+                <td class="departmentTD">
+                    <input type="text" class="department">
+                </td>
+            </tr>
         </tbody>
 
 
 
     </table>
-
+    
 
 
     <script src="main.js"></script>
