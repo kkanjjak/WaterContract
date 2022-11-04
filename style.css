@@ -6,18 +6,25 @@ body{
 }
 
 #AddNew{
+    border: 2px solid rgb(35, 89, 131);
+    border-radius: 5px;
     font-size: 15px;
+    font-weight: bold;
     width: 90px;
+    height: 29px;
     margin-top: 15px;
     margin-bottom: 10px;
     position: absolute;
     left: 1560px;
     font-family: sans-serif;
-
-
-
-
 }
+
+#AddNew:hover{
+    background-color: rgb(3, 50, 87);
+    color: white;
+    transition-duration: 0.5s;
+}
+
 h3{
     font-family: 'Times New Roman', Times, serif;
     padding-left: 5px;
@@ -83,7 +90,7 @@ table{
     font-family: sans-serif;
     font-size: 15px;
     margin: 1.5em;
-    margin-top: 45px;
+    margin-top: 48px;
     margin-left: 150px;
     margin-right: 200px;
     padding: 10px;
